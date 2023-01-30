@@ -1,0 +1,39 @@
+header {
+  background-color: rgb(26, 188, 156);
+  height: calc(100vh - 58px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    img {
+      width: 20%;
+      height: 20%;
+      object-fit: cover;
+    }
+    h1 {
+      font-size: 3.5rem;
+      text-transform: uppercase;
+      margin: 30px 0px;
+    }
+    .ic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .linear {
+        height: 4px;
+        width: 100px;
+        border-radius: 5px;
+        margin: 0 5px;
+        background-color: white;
+      }
+      .icon {
+        .icons {
+          font-size: 40px;
+        }
+      }
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
